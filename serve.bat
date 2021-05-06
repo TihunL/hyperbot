@@ -2,7 +2,17 @@
 
 set TOKEN= knheweCxxnnd7ODE
 set BOT_NAME= TinezzBot_v2
-set USE_LC0=true
+set USE_LC0=false
 set ENGINE_MOVE_OVERHEAD=1000
+USE_STOCKFISH_13=true
+ENGINE_THREADS=4
+ENGINE_HASH=128
+ALLOW_PONDER=true
+USE_POLYGLOT=true
+SKIP_FEN=true
+INCREMENTAL_UPDATE=true
+DISABLE_LOG=true
+
+
 
 node server.js
